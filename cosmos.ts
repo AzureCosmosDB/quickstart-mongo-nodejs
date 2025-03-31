@@ -23,6 +23,7 @@ export class DataClient {
     }
 
     async createClient(emit: Emit): Promise<MongoClient> {
+
 const client = new MongoClient(
     "<azure-cosmos-db-mongodb-connection-string>"
 );
